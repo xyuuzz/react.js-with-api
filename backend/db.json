@@ -1,0 +1,192 @@
+{
+  "categories": [
+    {
+      "id": 1,
+      "nama": "Makanan"
+    },
+    {
+      "id": 2,
+      "nama": "Minuman"
+    },
+    {
+      "id": 3,
+      "nama": "Cemilan"
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "kode": "F-01",
+      "nama": "Nasi Goreng",
+      "harga": 16000,
+      "is_ready": true,
+      "gambar": "nasgor.jpg",
+      "category": {
+        "id": 1,
+        "nama": "Makanan"
+      }
+    },
+    {
+      "id": 2,
+      "kode": "F-02",
+      "nama": "Mie Bihun Goreng ",
+      "harga": 20000,
+      "is_ready": true,
+      "gambar": "bihungoreng.jpg",
+      "category": {
+        "id": 1,
+        "nama": "Makanan"
+      }
+    },
+    {
+      "id": 3,
+      "kode": "F-03",
+      "nama": "Mie Bihun Rebus",
+      "harga": 22000,
+      "is_ready": true,
+      "gambar": "bihunrebus.jpg",
+      "category": {
+        "id": 1,
+        "nama": "Makanan"
+      }
+    },
+    {
+      "id": 4,
+      "kode": "F-04",
+      "nama": "Bakso",
+      "harga": 24000,
+      "is_ready": true,
+      "gambar": "bakso.jpg",
+      "category": {
+        "id": 1,
+        "nama": "Makanan"
+      }
+    },
+    {
+      "id": 5,
+      "kode": "D-01",
+      "nama": "Es Teh",
+      "harga": 4000,
+      "is_ready": true,
+      "gambar": "esteh.jpg",
+      "category": {
+        "id": 2,
+        "nama": "Minuman"
+      }
+    },
+    {
+      "id": 6,
+      "kode": "D-02",
+      "nama": "Es Jeruk",
+      "harga": 7000,
+      "is_ready": true,
+      "gambar": "esjeruk.jpg",
+      "category": {
+        "id": 2,
+        "nama": "Minuman"
+      }
+    },
+    {
+      "id": 7,
+      "kode": "D-03",
+      "nama": "Teh Hangat",
+      "harga": 3500,
+      "is_ready": true,
+      "gambar": "tehhangat.jpg",
+      "category": {
+        "id": 2,
+        "nama": "Minuman"
+      }
+    },
+    {
+      "id": 8,
+      "kode": "D-04",
+      "nama": "Jeruk Hangat",
+      "harga": 6000,
+      "is_ready": true,
+      "gambar": "jerukhangat.jpg",
+      "category": {
+        "id": 2,
+        "nama": "Minuman"
+      }
+    },
+    {
+      "id": 9,
+      "kode": "S-01",
+      "nama": "Arem - Arem",
+      "harga": 4000,
+      "is_ready": true,
+      "gambar": "aremarem.jpg",
+      "category": {
+        "id": 3,
+        "nama": "Cemilan"
+      }
+    },
+    {
+      "id": 10,
+      "kode": "S-02",
+      "nama": "Makaroni",
+      "harga": 5000,
+      "is_ready": true,
+      "gambar": "makaroni.jpg",
+      "category": {
+        "id": 3,
+        "nama": "Cemilan"
+      }
+    }
+  ],
+  "keranjang": [
+    {
+      "jumlah": 1,
+      "total_harga": 4000,
+      "produk": {
+        "id": 9,
+        "kode": "S-01",
+        "nama": "Arem - Arem",
+        "harga": 4000,
+        "is_ready": true,
+        "gambar": "aremarem.jpg",
+        "category": {
+          "id": 3,
+          "nama": "Cemilan"
+        }
+      },
+      "id": 18
+    },
+    {
+      "jumlah": 2,
+      "total_harga": 44000,
+      "produk": {
+        "id": 3,
+        "kode": "F-03",
+        "nama": "Mie Bihun Rebus",
+        "harga": 22000,
+        "is_ready": true,
+        "gambar": "bihunrebus.jpg",
+        "category": {
+          "id": 1,
+          "nama": "Makanan"
+        }
+      },
+      "id": 24
+    },
+    {
+      "jumlah": 2,
+      "total_harga": 40000,
+      "produk": {
+        "id": 2,
+        "kode": "F-02",
+        "nama": "Mie Bihun Goreng ",
+        "harga": 20000,
+        "is_ready": true,
+        "gambar": "bihungoreng.jpg",
+        "category": {
+          "id": 1,
+          "nama": "Makanan"
+        }
+      },
+      "id": 25
+    }
+  ],
+  "pesanan": []
+}
